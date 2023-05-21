@@ -1,1 +1,6 @@
-# A2
+1. ls   (show all the files)
+2. idlj -fall ReverseModule.idl    (creat a ReverseModule folder)
+3. javac *.java ReverseModule/ *.java  (creat a class file)
+4. orbd -ORBInitialPort 1050&   (start orbd)
+5. java ReverseServer -ORBInitialPort 1050& -ORBInitialHost localhost&  (start server)
+6. java ReverseClient -ORBInitialPort 1050 -ORBInitialHost localhost   (Run client)
